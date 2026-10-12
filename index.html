@@ -76,7 +76,7 @@ const R_THR = 0.86, THR_H = 0.022, THR_PITCH = 0.06, Y_THR = 0.62;   // rear: in
 const R_BORE = 0.17, BORE_DEPTH = 3.15, Y_CAV = 2.95;
 const HEX_H = 1.05, BOWL_D = 0.55;   // hex nut in the rear cavity: height from the bowl bottom, bowl depth (top ends just under the thread)   // rear cavity: thread, then smooth wall, ~1/3 of the length             // bullet bore from the muzzle: ~6 cm deep (1 unit = 19.05 mm)
 const GROOVES = [3.55, 3.91, 4.32, 4.91, 5.32, 5.73, 6.43, 6.86, 7.34];   // disc joints: wide disc + two narrow, repeating (photos)
-const FLUTES = 8, FL_Y0 = 0.14, FL_Y1 = 2.45, FL_W = 0.34, FL_D = 1 - Math.cos(0.34);   // 8 flutes, lands ~1/4 of a flute (photo)
+const FLUTES = 8, FL_Y0 = 0.14, FL_Y1 = 2.45, FL_W = 0.31, FL_D = 1 - Math.cos(0.31);   // 8 flutes, lands ~1/4 of a flute (photo)
 const flAng = (k) => (k / FLUTES) * Math.PI * 2 + Math.PI / 2;     // one flute right under the logo, as on the part
 
 let LOD = 1;
